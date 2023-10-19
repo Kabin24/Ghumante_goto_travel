@@ -1,0 +1,23 @@
+.NavbarItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30 px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0 ,0,0.25 );
+    width: 95%;
+    height: 80px;
+    border-radius: 13px;
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap:10px;
+    list-style: none;
+    align-items: center;
+
+}
+.nav-links{
+    text-decoration: none;
+    color: #222;
+    
+}
