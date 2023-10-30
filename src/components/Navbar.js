@@ -13,14 +13,14 @@ class Navbar extends Component{
                  return   (
                     <li key={index}>
                        
-                    <a href='/'> 
+                    <a className={item.cName} href='/'> 
+                   
                     <i className={item.icon}></i>{item.title}
                     </a>
                 </li>
                  );
                 })}
-
-                <button>Sign Up</button>
+                    <button>Sign Up</button>
                 </ul>
 
             </nav>

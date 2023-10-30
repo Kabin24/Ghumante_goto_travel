@@ -7,9 +7,9 @@
     width: 99%;
     height: 80px;
     border-radius: 20px;
-
 }
-.navbar-logo{
+
+ .navbar-logo{
     color: #ee0b0b;
     font-size: 2rem;
     cursor: pointer;
@@ -38,11 +38,27 @@
 }
 
 .nav-links:hover{
-    background-color: aqua;
+    background-color: #01959a;
     color: wheat;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
 }
 .nav-links-mobile{
     display: none;
+}
+button{
+    padding: 0.7rem 1rem ;
+    white-space: nowrap;
+    border-radius:15px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: rgba(15, 15, 15, 0.699);
+    color: white;
+
 }
