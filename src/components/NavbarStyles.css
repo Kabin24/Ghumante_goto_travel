@@ -4,9 +4,14 @@
     align-items: center;
     padding: 0 30px;
     box-shadow: 0 5px 15px 0 rgba(29, 28, 28, 0.25);
-    width: 99%;
+    width: 95%;
     height: 80px;
-    border-radius: 20px;
+    border-radius: 13px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 9999;
 }
 
  .navbar-logo{
@@ -46,6 +51,7 @@
 .nav-links-mobile{
     display: none;
 }
+
 button{
     padding: 0.7rem 1rem ;
     white-space: nowrap;
@@ -59,6 +65,86 @@ button{
 
 button:hover{
     background-color: rgba(15, 15, 15, 0.699);
-    color: white;
+    color: #fff;
+
+}
+.menu-icons{
+    display: none;
+}
+
+
+@media screen and (max-width:850px) {
+
+    .NavbarItems{
+        z-index: 99;
+    }
+    
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background:#ffffff;
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 0;
+        align-items: stretch;
+        padding: 80px o 30px 0;
+        margin: 0;
+     
+        
+      
+    }
+
+    .nav-menu.active{
+   left:0;
+   opacity: 1;
+   z-index: -1;
+
+    }
+    
+    .nav-links{
+        display: black;
+        width: 100px;
+        font-size: 1.2rem;
+        padding: 2rem 0;
+
+    }
+    .nav-links:hover{
+        background: #01959a;
+        transition: 250ms;
+
+    }
+
+    button{
+        display: none;
+
+    }
+   
+    .nav-links-mobile{
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+        margin: auto;
+        border-radius: 4px;
+        width: 80%;
+        background: #01959a;
+        text-decoration: none;
+        color: #fff;
+         font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+
+    }
+    .menu-icons{
+        display: block;
+        cursor: pointer;
+    }
+    .menu-icons{
+        font-size: 1.2rem;
+        color: #222;
+    }
 
 }
