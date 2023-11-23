@@ -1,13 +1,13 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-
+import HomeImg from "../assets/nepal3.jpg";
 function Home (){
     return(
         <>
        <Navbar/>
        <Hero 
        cName="hero"
-       heroImg="https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=600"
+       heroImg={HomeImg}
        title="Your Journey Your Story "
        text="Choose Your Favorite Destination"
        buttonText="Travel Plan"
