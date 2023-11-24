@@ -1,8 +1,20 @@
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import ContactImg from "../assets/contact3.avif"
+
 function Contact (){
     return(
         <>
-        <h1>THis is Contact</h1>
-        </>
+               
+        <Navbar/>
+        <Hero 
+        cName="hero-mid"
+        heroImg={ContactImg}
+        title="Contact Us "
+       
+        />
+ 
+         </>
     )
 
 }

@@ -1,8 +1,19 @@
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import ServiceImg from "../assets/nepal8.avif"
 function Service (){
     return(
         <>
-        <h1>THis is service</h1>
-        </>
+               
+        <Navbar/>
+        <Hero 
+        cName="hero-mid"
+        heroImg={ServiceImg}
+        title="Service "
+       
+        />
+ 
+         </>
     )
 
 }
