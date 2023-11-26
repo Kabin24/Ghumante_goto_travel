@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import HomeImg from "../assets/nepal3.jpg";
 import Destination from "../components/Destination";
 import Trip from "../components/Trip"
+import Footer from "../components/Footer";
 
 
 
@@ -21,6 +22,7 @@ function Home (){
        />
        <Destination/>
     <Trip/>
+    <Footer/>
         </>
     );
 
