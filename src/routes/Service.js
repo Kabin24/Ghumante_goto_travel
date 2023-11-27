@@ -1,6 +1,8 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import ServiceImg from "../assets/nepal8.avif"
+import Trip from "../components/Trip";
+import Footer from "../components/Footer";
 function Service (){
     return(
         <>
@@ -12,6 +14,8 @@ function Service (){
         title="Service "
        
         />
+        <Trip/>
+        <Footer/>
  
          </>
     )
